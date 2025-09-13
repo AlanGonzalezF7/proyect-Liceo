@@ -247,102 +247,39 @@
 
 
 
-    <!-- Overlay opcional para mejor contraste -->
-    <div class="fixed inset-0 bg-black/15 "></div>
 
-    <!-- Carrusel posicionado encima del fondo -->
-    <div class="relative z-10 flex items-center justify-center min-h-screen px-4 top-23">
+    <!-- Contenedor 1: Imagen a la izquierda, texto a la derecha -->
+    <div class="max-w-6xl mx-auto bg-white rounded-lg shadow-lg overflow-hidden mt-40 w-full">
+        <div class="flex flex-col md:flex-row">
+            <!-- Imagen -->
 
-        <div class="container mx-auto max-w-6xl">
+            <div class="md:w-1/2 ">
+                <img src="/public/assets/img/directora.jpg" alt="Estudiantes trabajando"
+                    class="w-full h-100 object-cover">
+            </div>
 
-            <!-- Carrusel Container -->
-            <div class="relative">
+            <div class="md:w-full p-5 flex flex-col"> <!--texto-->
+                <h1 class="text-gray-600 text-[15px] leading-relaxed mb-4 font-extrabold italic">Queremos reafirmar que nuestro Proyecto Educativo cuenta con profesionales de excelencia, centrados en la formación integral, desarrollando al máximo las capacidades y competencias de todos nuestros estudiantes.</h1>
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Saludo de la directora del Liceo Manuel Jesús Andrade Bórquez</h2>
+                <p class="text-gray-600 text-lg leading-relaxed mb-6">En mayo del año 2018 asume en  la dirección del Liceo Manuel Jesús, la profesional Daniela Linares Rodríguez, Profesora de Educación General Básica con Postítulo en Matemáticas, psicopedagogía para la Educación Matemática y Máster en Gestión Educacional.</p>
+                <p class="text-gray-600 text-lg leading-relaxed mb-6">Durante su gestión el Liceo Manuel Jesus AB, postularon y lograron integrarse a la prestigiosa red de Liceos Bicentenarios, es así como el año 2019 el establecimiento se convierte en Liceo Bicentenario de Excelencia Manuel Jesús Andrade Bórquez.</p>
+                <p class="text-gray-600 text-lg leading-relaxed mb-6">Es muy gratificante aprovechar esta tribuna comunicacional para saludar de manera sincera y cordial a todo el plantel educativo y equipo humano del Liceo Manuel Jesús Andrade Bórquez.</p>
+                <p class="text-gray-600 text-lg leading-relaxed mb-6">Para acercar más nuestra labor educativa a la comunidad de Chonchi, hemos elaborado entre los alumnos, profesores y un grupo de profesionales de las comunicaciones, este sitio web que pretende resumir el quehacer del establecimiento durante el 2018 y hacer referencia a los principales hitos que se generen en nuestro recinto educacional.</p>
+                <p class="text-gray-600 text-lg leading-relaxed mb-6">A través de esta plataforma comunicacional queremos reafirmar que nuestro Proyecto Educativo cuenta con profesionales de excelencia, centrados en la formación integral de nuestros estudiantes, desarrollando al máximo las capacidades y competencias de todos los alumnos. Brindar una educación integral y de calidad es uno de los desafíos que esta institución ha asumido con responsabilidad, comprometidos con el futuro de nuestros alumnos, abriendo las fronteras no sólo del conocimiento, sino que también planteándonos metas que generen un impacto positivo en los aprendizajes de nuestros estudiantes, utilizando metodologías actualizadas y enfocadas en la realidad sociocultural de cada uno de ellos.</p>
 
-                <!-- Slides Container -->
-                <div class="overflow-hidden rounded-lg shadow-2xl">
-                    <div id="carousel" class="flex transition-transform duration-500 ease-in-out">
+                <p class="text-gray-600 text-lg leading-relaxed mb-6">
 
-                        <!-- Slide 1 -->
-                        <div class="w-full flex-shrink-0 relative">
-                            <img src="public/assets/img/carrusel.jpg" alt="Paisaje 1" class="slide-tamaño">
-                            <div class="absolute inset-0 bg-black/10 flex items-center justify-center">
-                                <div class="text-center text-white">
-                                    <h2 class="text-2xl md:text-4xl font-bold mb-2 drop-shadow-lg"></h2>
-                                    <p class="text-sm md:text-lg drop-shadow-md"></p>
-                                </div>
-                            </div>
-                        </div>
+                </p>
 
-                        <!-- Slide 2 -->
-                        <div class="w-full flex-shrink-0 relative">
-                            <img src="public/assets/img/carrusel1.jpg" alt="Paisaje 2" class="slide-tamaño">
-                            <div class="absolute inset-0 bg-black/10 flex items-center justify-center">
-                                <div class="text-center text-white">
-                                    <h2 class="text-2xl md:text-4xl font-bold mb-2 drop-shadow-lg"></h2>
-                                    <p class="text-sm md:text-lg drop-shadow-md">Comité Asesor Empresarial </p>
-                                </div>
-                            </div>
-                        </div>
+                <p class="text-gray-600 text-lg leading-relaxed mb-6">
 
-                        <!-- Slide 3 -->
-                        <div class="w-full flex-shrink-0 relative">
-                            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=400&fit=crop"alt="Paisaje 3" class="slide-tamaño">
-                            <div class="absolute inset-0 bg-black/30 flex items-center justify-center">
-                                <div class="text-center text-white">
-                                    <h2 class="text-2xl md:text-4xl font-bold mb-2 drop-shadow-lg">Slide 3</h2>
-                                    <p class="text-sm md:text-lg drop-shadow-md">Bosque en otoño</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Slide 4 -->
-                        <div class="w-full flex-shrink-0 relative">
-                            <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800&h=400&fit=crop"alt="Paisaje 4" class="slide-tamaño">
-                            <div class="absolute inset-0 bg-black/30 flex items-center justify-center">
-                                <div class="text-center text-white">
-                                    <h2 class="text-2xl md:text-4xl font-bold mb-2 drop-shadow-lg">Slide 4</h2>
-                                    <p class="text-sm md:text-lg drop-shadow-md">Lago sereno</p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <!-- Botones de navegación -->
-                <button id="prevBtn"
-                    class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/20 text-gray-800 rounded-full w-10 h-10 shadow-xl transition-all duration-200 hover:scale-90 backdrop-blur-sm flex items-center justify-center text-2xl font-bold">
-                    &#8249;
-                </button>
-
-                <button id="nextBtn"
-                    class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white/20 text-gray-800 rounded-full w-10 h-10 shadow-xl transition-all duration-200 hover:scale-90 backdrop-blur-sm flex items-center justify-center text-2xl font-bold">
-                    &#8250;
-                </button>
-
-                <!-- Indicadores (dots) -->
-                <div class="flex justify-center mt-6 space-x-3">
-                    <button
-                        class="dot w-3 h-3 rounded-full bg-white/20 hover:bg-white transition-all duration-200 shadow-lg backdrop-blur-sm"
-                        data-slide="0"></button>
-                    <button
-                        class="dot w-3 h-3 rounded-full bg-white/20 hover:bg-white transition-all duration-200 shadow-lg backdrop-blur-sm"
-                        data-slide="1"></button>
-                    <button
-                        class="dot w-3 h-3 rounded-full bg-white/20 hover:bg-white transition-all duration-200 shadow-lg backdrop-blur-sm"
-                        data-slide="2"></button>
-                    <button
-                        class="dot w-3 h-3 rounded-full bg-white/20 hover:bg-white transition-all duration-200 shadow-lg backdrop-blur-sm"
-                        data-slide="3"></button>
-                </div>
+                </p>
             </div>
         </div>
     </div>
 
-    <script src="public/assets/js/slide.js"></script>
+    
+    </div>
+
+
 </body>
-
-
-
-
-</html>
