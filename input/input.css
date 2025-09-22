@@ -1,40 +1,43 @@
 @import "tailwindcss";
 
 
-@layer components{
-    .posicion-logo {
-        @apply h-8 flex items-center justify-center
-    }
-}   
 
-@layer components {
-    .boton-aspecto-academico {
-        @apply flex items-center hover:text-red-500 text-sm/5 transition text-[15px] 
-    }
-}
-
-@layer components {
-    .menu-despl {
-        @apply absolute left-0 mt-2 w-40 bg-slate-900 shadow-lg rounded-md opacity-0 invisible group-hover:opacity-95 group-hover:visible transition duration-800
-    }
-}
-
-@layer components {
-    .menu-opcion {
-        @apply block px-4 py-2 text-sm text-white hover:bg-black hover:text-red-500 
-    }
-}
-
-@layer components {
-    .fondo {
-        @apply bg-cover bg-center bg-no-repeat bg-fixed min-h-screen
-    }
-}
-
-@layer components {
-    .slide-tamaño{
-        @apply w-full h-80 md:h-[550px] object-cover
-    }
+.posicion-logo {
+    @apply h-8 flex items-center justify-center
 }
 
 
+
+.boton-aspecto-academico {
+    @apply flex items-center hover:text-red-500 text-sm/5 transition text-[15px]
+}
+
+
+
+.menu-despl {
+    @apply absolute left-0 mt-2 w-40 bg-slate-900 shadow-lg rounded-md opacity-0 invisible group-hover:opacity-95 group-hover:visible transition duration-800
+}
+
+
+
+.menu-opcion {
+    @apply block px-4 py-2 text-sm text-white hover:bg-black hover:text-red-500
+}
+
+
+
+.fondo {
+    @apply bg-cover bg-center bg-no-repeat bg-fixed min-h-screen
+}
+
+
+
+.slide-tamaño {
+    @apply w-full h-80 md:h-[550px] object-cover
+}
+
+
+
+.texto-directora {
+    @apply text-gray-800 text-lg leading-relaxed mb-4 -ml-93
+}
