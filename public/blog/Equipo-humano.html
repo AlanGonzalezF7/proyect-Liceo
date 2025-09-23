@@ -9,11 +9,13 @@
 </head>
 
 <body>
+    <!-- imagen de fondo -->
     <div
         class="fixed inset-0 bg-[url('/public/assets/img/fondo_lmj1.jpg')] bg-cover bg-top bg-no-repeat bg-fixed -z-10 ">
     </div>
     <div class="fixed inset-0 bg-black/30 -z-10"></div>
 
+    <!-- Header -->
     <header class="fixed top-0 left-0 w-full bg-slate-900 text-white shadow-md z-50">
         <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between p-6">
 
@@ -80,9 +82,6 @@
                         </li>
                     </ul>
 
-
-
-
                     <!-- Item con menú desplegable -->
                     <ul class=" flex justify-start ml-17 ">
                         <li class="relative group">
@@ -140,6 +139,7 @@
                         </li>
                     </ul>
 
+                    <!-- Item con menú desplegable -->
                     <ul class=" flex justify-start ml-17 ">
                         <li class="relative group">
                             <button class="boton-aspecto-academico">
@@ -169,6 +169,7 @@
                             </ul>
                         </li>
                     </ul>
+
                     <!-- Item con menú desplegable -->
                     <ul class=" flex justify-start ml-60 ">
                         <li class="relative group">
@@ -250,26 +251,26 @@
 
 
     <main>
-
+        <!-- Contenedor imagen texto -->
         <div class="max-w-6xl mx-auto bg-slate-900 rounded-lg shadow-md overflow-hidden mt-[151px] mb-3">
             <div class="p-6 text-center bg-gradient-to-b from-slate-800 to-slate-900">
-                <h1 class="text-3xl font-bold text-white mb-4 ">Un gran equipo humano al servicio de la comunidad educativa</h1>
-                <p class="text-white leading-relaxed text-center italic">Los docentes y los asistentes de la educación están enfocados en brindar una educación integral a todos los alumnos que conforman plantel. </p>
+                <h1 class="text-3xl font-bold text-white mb-4 ">Un gran equipo humano al servicio de la comunidad
+                    educativa</h1>
+                <p class="text-white leading-relaxed text-center italic">Los docentes y los asistentes de la educación
+                    están enfocados en brindar una educación integral a todos los alumnos que conforman plantel. </p>
             </div>
             <!-- Imagen arriba centrada -->
             <div class="flex justify-center  ">
                 <img src="/public/assets/img/foto_equipo_humano.jpg" alt="foto_equipo_gestion"
                     class="w-[640px] h-[500px] mx-auto object-cover rounded-lg mb-6 ">
             </div>
+            <!-- Contenedor texto -->
             <p class="text-white leading-relaxed text-center italic"> El Liceo Manuel Jesús Andrade cuenta con un gran equipo de profesionales y asistentes al servicio de la comunidad educativa.</p>
-            <p class="text-white text-lg leading-relaxed text-justify p-8"> Un gran equipo humano integrado por personas comprometidas con su trabajo, la docencia y la formación es el que le da vida al Liceo Manuel Jesús Andrade Bórquez de Chonchi. Los docentes y los asistentes de la educación se enfocan en brindar una educación integral a todos los alumnos que conforman plantel. Quienes participan de este proceso educativo al interior del liceo entienden que es  importante aportar no solo conocimiento, sino también valores. En este sentido, los campos que se trabajan son básicamente tres: Por un lado está el conocimiento, importante para formar individuos cultos y con herramientas para entender el mundo. Por otro lado se trabaja la conducta, intentando que los niños aprendan libremente a comportarse. Por último, se realza y fomenta a través de la educación integral la creatividad, la voluntad y el respeto en los  estudiantes. Todo ello con el fin de moldear individuos libres capaces de enfrentar los desafíos de nuestra sociedad actual. </p>
-
-
-
-
+            <p class="text-white text-lg leading-relaxed text-justify p-8"> Un gran equipo humano integrado por personas comprometidas con su trabajo, la docencia y la formación es el que le da vida al Liceo Manuel Jesús Andrade Bórquez de Chonchi. Los docentes y los asistentes de la educación se enfocan en brindar una educación integral a todos los alumnos que conforman plantel. Quienes participan de este proceso educativo al interior del liceo entienden que es importante aportar no solo conocimiento, sino también valores. En este sentido, los campos que se trabajan son básicamente tres: Por un lado está el conocimiento, importante para formar individuos cultos y con herramientas para entender el mundo. Por otro lado se trabaja la conducta, intentando que los niños aprendan libremente a comportarse. Por último, se realza y fomenta a través de la educación integral la creatividad, la voluntad y el respeto en los estudiantes. Todo ello con el fin de moldear individuos libres capaces de enfrentar los desafíos de nuestra sociedad actual. </p>
 
             <!-- Pestaña de contacto desplegable -->
             <div id="contactTab" class="fixed right-0 top-1/4 transform -translate-y-1/2 z-50">
+
                 <!-- Botón de la pestaña -->
                 <button id="contactButton"
                     class="bg-gradient-to-r from-slate-900 to-slate-600 text-white px-4 py-6 rounded-l-lg shadow-lg hover:from-slate-900 hover:to-slate-700 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-slate-900 focus:ring-offset-2">
@@ -283,93 +284,92 @@
                         <span class="font-semibold text-sm writing-mode-vertical">CONTACTO</span>
                     </div>
                 </button>
+            </div>
 
-                <!-- Panel desplegable -->
-                <div id="contactPanel"
-                    class="absolute right-full top-0 w-80 bg-white rounded-l-lg shadow-2xl transform translate-x-full opacity-0 transition-all duration-300 pointer-events-none">
-                    <div class="p-6">
-                        <!-- Header del panel -->
-                        <div class="flex items-center justify-between mb-6">
-                            <h3 class="text-xl font-bold text-gray-800">¡Contáctanos!</h3>
-                            <button id="closePanel"
-                                class="text-gray-400 hover:text-gray-600 transition-colors duration-200">
-                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M6 18L18 6M6 6l12 12"></path>
-                                </svg>
-                            </button>
+            <!-- Panel desplegable -->
+            <div id="contactPanel"
+                class="absolute right-full top-0 w-80 bg-white rounded-l-lg shadow-2xl transform translate-x-full opacity-0 transition-all duration-300 pointer-events-none">
+                <div class="p-6">
+
+                    <!-- Header del panel -->
+                    <div class="flex items-center justify-between mb-6">
+                        <h3 class="text-xl font-bold text-gray-800">¡Contáctanos!</h3>
+                        <button id="closePanel"
+                            class="text-gray-400 hover:text-gray-600 transition-colors duration-200">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M6 18L18 6M6 6l12 12"></path>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <!-- Formulario de contacto -->
+                    <form id="contactForm" class="space-y-4">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">Nombre</label>
+                            <input type="text"
+                                class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200"
+                                placeholder="Tu nombre completo">
                         </div>
 
-                        <!-- Formulario de contacto -->
-                        <form id="contactForm" class="space-y-4">
-                            <div>
-                                <label class="block text-sm font-medium text-gray-700 mb-1">Nombre</label>
-                                <input type="text"
-                                    class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200"
-                                    placeholder="Tu nombre completo">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                            <input type="email"
+                                class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200"
+                                placeholder="tu@email.com">
+                        </div>
+
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">Mensaje</label>
+                            <textarea rows="3"
+                                class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 resize-none"
+                                placeholder="Escribe tu mensaje aquí..."></textarea>
+                        </div>
+
+                        <button type="submit"
+                            class="w-full bg-gradient-to-r from-slate-800 to-slate-600 text-white py-2 px-4 rounded-md hover:from-slate-900 hover:to-slate-700 transform hover:scale-105 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+                            Enviar Mensaje
+                        </button>
+                    </form>
+
+                    <!-- Información de contacto alternativa -->
+                    <div class="mt-3 pt-3 border-t border-gray-200">
+                        <h4 class="font-semibold text-gray-800 mb-3">Otras formas de contacto:</h4>
+                        <div class="space-y-2">
+                            <div class="flex items-center space-x-3 text-sm text-gray-600">
+                                <svg class="w-4 h-4 text-blue-500" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+                                    </path>
+                                </svg>
+                                <span>wilmawolfd@hotmail.com</span>
                             </div>
-
-                            <div>
-                                <label class="block text-sm font-medium text-gray-700 mb-1">Email</label>
-                                <input type="email"
-                                    class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200"
-                                    placeholder="tu@email.com">
+                            <div class="flex items-center space-x-3 text-sm text-gray-600">
+                                <svg class="w-4 h-4 text-blue-500" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+                                    </path>
+                                </svg>
+                                <span>kdiaz@liceomanueljesus.cl</span>
                             </div>
-
-                            <div>
-                                <label class="block text-sm font-medium text-gray-700 mb-1">Mensaje</label>
-                                <textarea rows="3"
-                                    class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 resize-none"
-                                    placeholder="Escribe tu mensaje aquí..."></textarea>
-                            </div>
-
-                            <button type="submit"
-                                class="w-full bg-gradient-to-r from-slate-800 to-slate-600 text-white py-2 px-4 rounded-md hover:from-slate-900 hover:to-slate-700 transform hover:scale-105 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
-                                Enviar Mensaje
-                            </button>
-                        </form>
-
-                        <!-- Información de contacto alternativa -->
-                        <div class="mt-3 pt-3 border-t border-gray-200">
-                            <h4 class="font-semibold text-gray-800 mb-3">Otras formas de contacto:</h4>
-                            <div class="space-y-2">
-                                <div class="flex items-center space-x-3 text-sm text-gray-600">
-                                    <svg class="w-4 h-4 text-blue-500" fill="none" stroke="currentColor"
-                                        viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
-                                        </path>
-                                    </svg>
-                                    <span>wilmawolfd@hotmail.com</span>
-                                </div>
-                                <div class="flex items-center space-x-3 text-sm text-gray-600">
-                                    <svg class="w-4 h-4 text-blue-500" fill="none" stroke="currentColor"
-                                        viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
-                                        </path>
-                                    </svg>
-                                    <span>kdiaz@liceomanueljesus.cl</span>
-                                </div>
-                                <div class="flex items-center space-x-3 text-sm text-gray-600">
-                                    <svg class="w-4 h-4 text-green-500" fill="none" stroke="currentColor"
-                                        viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z">
-                                        </path>
-                                    </svg>
-                                    <span>(65) 267 1281</span>
-                                </div>
+                            <div class="flex items-center space-x-3 text-sm text-gray-600">
+                                <svg class="w-4 h-4 text-green-500" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z">
+                                    </path>
+                                </svg>
+                                <span>(65) 267 1281</span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>    
-        <script src="/public/assets/js/boton.js"></script>
-
+        </div>
     </main>
-
+    <script src="/public/assets/js/boton.js"></script>
     <footer>
 
 
