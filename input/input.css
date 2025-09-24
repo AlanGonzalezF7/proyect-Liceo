@@ -39,5 +39,5 @@
 
 
 .texto-directora {
-    @apply text-gray-800 text-lg leading-relaxed mb-4 -ml-93 text-justify
+    @apply text-gray-800 text-lg leading-relaxed mb-4 -ml-95 text-justify
 }

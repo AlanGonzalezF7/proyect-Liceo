@@ -4,17 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Equipo Humano</title>
     <link rel="icon" href="/public/assets/img/logo_lmj.png" type="image/png">
     <link rel="stylesheet" href="/public/assets/css/output.css">
 </head>
 
 <body>
-    <!--imagen de fondo-->
-    <div class="fixed inset-0 bg-[url('/public/assets/img/fondo_lmj1.jpg')] bg-cover bg-top bg-no-repeat bg-fixed -z-10 ">
+    <!-- imagen de fondo -->
+    <div
+        class="fixed inset-0 bg-[url('/public/assets/img/fondo_lmj1.jpg')] bg-cover bg-top bg-no-repeat bg-fixed -z-10 ">
     </div>
     <div class="fixed inset-0 bg-black/30 -z-10"></div>
-    <!--Header-->
+
+    <!-- Header -->
     <header class="fixed top-0 left-0 w-full bg-slate-900 text-white shadow-md z-50">
         <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between p-6">
 
@@ -30,13 +32,13 @@
                 <div class=" flex h-16 items-center">
 
                     <!-- NAV ITEMS -->
-                    <!-- Item desplegable  -->
                     <ul class="flex space-x-6 text-lg text-white">
-
+                        <!-- Item desplegable  -->
                         <li class="relative group">
                             <button class="boton-aspecto-academico">
                                 Liceo <span class="ml-2"></span>
                             </button>
+                            <!-- Menú desplegable-->
                             <ul class="menu-despl">
                                 <li>
                                     <a href="/public/blog/liceo/Saludos-directora.html" class="menu-opcion">
@@ -54,7 +56,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/public/blog/Coordinadores-departamento.html" class="menu-opcion">
+                                    <a href="/public/blog/liceo/Coordinadores-departamento.html" class="menu-opcion">
                                         Coordinadores De Departamento
                                     </a>
                                 </li>
@@ -88,7 +90,7 @@
                             <button class="boton-aspecto-academico">
                                 Aspecto Académico <span class="ml-0"></span>
                             </button>
-
+                            <!-- Menú desplegable-->
                             <ul class="menu-despl">
                                 <li>
                                     <a href="/public/blog/Aspecto-academico/proyecto-educativo.html"
@@ -107,7 +109,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="menu-opcion">
+                                    <a href="/public/blog/Aspecto-academico/programa-cra.html" class="menu-opcion">
                                         Programa CRA
                                     </a>
                                 </li>
@@ -151,6 +153,7 @@
                             <button class="boton-aspecto-academico">
                                 Comunidad Escolar <span class="ml-0"></span>
                             </button>
+                            <!-- Menú desplegable-->
                             <ul class="menu-despl">
                                 <li>
                                     <a href="#" class="menu-opcion">
@@ -255,96 +258,43 @@
         </div>
     </header>
 
+
     <main>
-
-        <!-- Overlay opcional para mejor contraste -->
-        <div class="fixed inset-0 bg-black/15 "></div>
-
-        <!-- Carrusel -->
-        <div class="relative z-10 flex items-center justify-center min-h-screen px-4 top-23 mb-10">
-
-            <div class="container mx-auto max-w-5xl">
-
-                <!-- Carrusel Container -->
-                <div class="relative">
-
-                    <!-- Slides Container -->
-                    <div class="overflow-hidden rounded-lg shadow-2xl">
-                        <div id="carousel" class="flex transition-transform duration-500 ease-in-out">
-
-                            <!-- Slide 1 -->
-                            <div class="w-full flex-shrink-0 relative">
-                                <img src="/public/assets/img/carrusel.jpg" alt="personal" class="slide-tamaño">
-                                <div class="absolute inset-0 bg-black/10 flex items-center justify-center">
-                                    <div class="text-center text-white">
-                                        <h2 class="text-2xl md:text-4xl font-bold mb-2 drop-shadow-lg"></h2>
-                                        <p class="text-sm md:text-lg drop-shadow-md"></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Slide 2 -->
-                            <div class="w-full flex-shrink-0 relative">
-                                <img src="/public/assets/img/carrusel1.jpg" alt="personal" class="slide-tamaño">
-                                <div class="absolute inset-0 bg-black/10 flex items-center justify-center">
-                                    <div class="text-center text-white">
-                                        <h2 class="text-2xl md:text-4xl font-bold mb-2 drop-shadow-lg"></h2>
-                                        <p class="text-sm md:text-lg drop-shadow-md">Comité Asesor Empresarial </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Slide 3 -->
-                            <div class="w-full flex-shrink-0 relative">
-                                <img src="" alt="personal" class="slide-tamaño">
-                                <div class="absolute inset-0 bg-black/30 flex items-center justify-center">
-                                    <div class="text-center text-white">
-                                        <h2 class="text-2xl md:text-4xl font-bold mb-2 drop-shadow-lg">Slide 3</h2>
-                                        <p class="text-sm md:text-lg drop-shadow-md"></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Slide 4 -->
-                            <div class="w-full flex-shrink-0 relative">
-                                <img src="" alt="Paisaje 4" class="slide-tamaño">
-                                <div class="absolute inset-0 bg-black/30 flex items-center justify-center">
-                                    <div class="text-center text-white">
-                                        <h2 class="text-2xl md:text-4xl font-bold mb-2 drop-shadow-lg">Slide 4</h2>
-                                        <p class="text-sm md:text-lg drop-shadow-md"></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <!-- Botones de navegación -->
-                    <button id="prevBtn" class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/20 text-gray-800 rounded-full w-10 h-10 shadow-xl transition-all duration-200 hover:scale-90 backdrop-blur-sm flex items-center justify-center text-2xl font-bold">
-                        &#8249;
-                    </button>
-
-                    <button id="nextBtn" class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white/20 text-gray-800 rounded-full w-10 h-10 shadow-xl transition-all duration-200 hover:scale-90 backdrop-blur-sm flex items-center justify-center text-2xl font-bold">
-                        &#8250;
-                    </button>
-
-                    <!-- Indicadores (dots) -->
-                    <div class="flex justify-center mt-6 space-x-3">
-                        <button class="dot w-3 h-3 rounded-full bg-white/20 hover:bg-white transition-all duration-200 shadow-lg backdrop-blur-sm" data-slide="0"></button>
-                        <button class="dot w-3 h-3 rounded-full bg-white/20 hover:bg-white transition-all duration-200 shadow-lg backdrop-blur-sm" data-slide="1"></button>
-                        <button class="dot w-3 h-3 rounded-full bg-white/20 hover:bg-white transition-all duration-200 shadow-lg backdrop-blur-sm" data-slide="2"></button>
-                        <button class="dot w-3 h-3 rounded-full bg-white/20 hover:bg-white transition-all duration-200 shadow-lg backdrop-blur-sm" data-slide="3"></button>
-                    </div>
-                </div>
+        <!-- Texto principal -->
+        <div class="max-w-6xl mx-auto bg-slate-900 rounded-lg shadow-md overflow-hidden mt-[151px] mb-3">
+            <div class="p-6 text-center bg-gradient-to-b from-slate-800 to-slate-900">
+                <h1 class="text-3xl font-bold text-white mb-4 ">Un gran equipo humano al servicio de la comunidad
+                    educativa</h1>
+                <p class="text-white leading-relaxed text-center italic">Los docentes y los asistentes de la educación
+                    están enfocados en brindar una educación integral a todos los alumnos que conforman plantel. </p>
             </div>
+            <!-- Imagen centrada -->
+            <div class="flex justify-center  ">
+                <img src="/public/assets/img/foto_equipo_humano.jpg" alt="foto_equipo_gestion"
+                    class="w-[640px] h-[500px] mx-auto object-cover rounded-lg mb-6 ">
+            </div>
+            <!-- Contenedor texto -->
+            <p class="text-white leading-relaxed text-center italic"> El Liceo Manuel Jesús Andrade cuenta con un gran
+                equipo de profesionales y asistentes al servicio de la comunidad educativa.</p>
+            <p class="text-white text-lg leading-relaxed text-justify p-8"> Un gran equipo humano integrado por personas
+                comprometidas con su trabajo, la docencia y la formación es el que le da vida al Liceo Manuel Jesús
+                Andrade Bórquez de Chonchi. Los docentes y los asistentes de la educación se enfocan en brindar una
+                educación integral a todos los alumnos que conforman plantel. Quienes participan de este proceso
+                educativo al interior del liceo entienden que es importante aportar no solo conocimiento, sino también
+                valores. En este sentido, los campos que se trabajan son básicamente tres: Por un lado está el
+                conocimiento, importante para formar individuos cultos y con herramientas para entender el mundo. Por
+                otro lado se trabaja la conducta, intentando que los niños aprendan libremente a comportarse. Por
+                último, se realza y fomenta a través de la educación integral la creatividad, la voluntad y el respeto
+                en los estudiantes. Todo ello con el fin de moldear individuos libres capaces de enfrentar los desafíos
+                de nuestra sociedad actual. </p>
         </div>
-
 
 
         <!-- Pestaña de contacto desplegable -->
         <div id="contactTab" class="fixed right-0 top-1/4 transform -translate-y-1/2 z-50">
             <!-- Botón de la pestaña -->
-            <button id="contactButton" class="bg-gradient-to-r from-slate-900 to-slate-600 text-white px-4 py-6 rounded-l-lg shadow-lg hover:from-slate-900 hover:to-slate-700 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-slate-900 focus:ring-offset-2">
+            <button id="contactButton"
+                class="bg-gradient-to-r from-slate-900 to-slate-600 text-white px-4 py-6 rounded-l-lg shadow-lg hover:from-slate-900 hover:to-slate-700 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-slate-900 focus:ring-offset-2">
                 <div class="flex items-center space-x-2">
                     <svg class="w-5 h-5 transform transition-transform duration-300" id="contactIcon" fill="none"
                         stroke="currentColor" viewBox="0 0 24 24">
@@ -352,7 +302,7 @@
                             d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z">
                         </path>
                     </svg>
-                    <span class="font-semibold text-sm writing-mode-vertical"></span>
+                    <span class="font-semibold text-sm writing-mode-vertical">CONTACTO</span>
                 </div>
             </button>
 
@@ -371,6 +321,7 @@
                             </svg>
                         </button>
                     </div>
+
                     <!-- Formulario de contacto -->
                     <form id="contactForm" class="space-y-4">
                         <div>
@@ -386,6 +337,7 @@
                                 class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent transition-all duration-200"
                                 placeholder="tu@email.com">
                         </div>
+
                         <div>
                             <label class="block text-sm font-medium text-gray-700 mb-1">Mensaje</label>
                             <textarea rows="3"
@@ -435,14 +387,10 @@
                 </div>
             </div>
         </div>
-        <script src="/public/assets/js/slide.js"></script>
-           
+        <script src="/public/assets/js/boton.js"></script>
     </main>
 
     
-
-
-
     <footer class="bg-slate-900 text-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <!-- Sección principal del footer -->
@@ -661,8 +609,3 @@
 
 
 </body>
-
-
-
-
-</html>
